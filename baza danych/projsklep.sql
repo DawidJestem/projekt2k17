@@ -57,7 +57,7 @@ CREATE TABLE `produkty` (
   `Id_Produktu` int(15) NOT NULL,
   `Nazwa` varchar(50) NOT NULL,
   `Cena` double NOT NULL,
-  `Obrazek` mediumblob NOT NULL,
+  `Obrazek` text NOT NULL,
   `Ilosc` int(9) NOT NULL,
   `Opis` varchar(150) NOT NULL,
   `Kategoria` int(15) NOT NULL
@@ -68,9 +68,9 @@ CREATE TABLE `produkty` (
 --
 
 INSERT INTO `produkty` (`Id_Produktu`, `Nazwa`, `Cena`, `Obrazek`, `Ilosc`, `Opis`, `Kategoria`) VALUES
-(1, 'CLASSIC | 40MM | CANTERBURY', 690, 0x7a65676172656b2e706e67, 5, 'Dobrze liczy czas', 1),
-(2, 'BMW E90 M3 M POWER 2008r PAKIET M3', 36900, 0x322e6a7067, 2, 'Szybki i ten nie popsuty', 2),
-(3, 'Przybory kuchenne stal nierdzewna POLONIA 6szt', 69, 0x776964656c65632e6a7067, 6, 'Stal nierdzewna', 3);
+(1, 'CLASSIC | 40MM | CANTERBURY', 690, 'zegarek.png', 5, 'Dobrze liczy czas', 1),
+(2, 'BMW E90 M3 M POWER 2008r PAKIET M3', 36900, 'samochod.jpg', 2, 'Szybki i ten nie popsuty', 2),
+(3, 'Przybory kuchenne stal nierdzewna POLONIA 6szt', 69, 'widelec.jpg', 6, 'Stal nierdzewna', 3);
 
 --
 -- Indeksy dla zrzutów tabel
