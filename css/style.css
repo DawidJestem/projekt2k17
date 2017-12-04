@@ -1,0 +1,166 @@
+/* Formularz */
+
+.form-input p {
+    margin-top: 10px;
+}
+
+.form-content .form-input {
+    margin-top: 15px;
+}
+
+.form-content .form-input label {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.form-input button {
+    background: orange;
+    transition: 0.5s;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.form-input button:hover {
+    background: #ff770b;
+    color: #fff;
+}
+
+.form-input input, .form-input select, .form-input textarea {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    box-shadow: inset 0 0 0 1px #ddd;
+    transition: 0.25s;
+    padding: 12px 15px;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .form-input input {
+        padding: 10px 15px;
+    }
+}
+
+.form-input input:focus, .form-input select:focus, .form-input textarea:focus {
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+.form-input input:hover, .form-input select:hover, .form-input textarea:hover {
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+/* Naglowek */
+.navbar .container-fluid {
+    background: #ffb925;
+    transition: 0.5s;
+}
+
+.navbar .container-fluid:hover {
+    background: orange;
+    color: #000;
+}
+
+.nav.navbar-nav li a {
+    transition: 0.25s;
+}
+
+.nav.navbar-nav li a:hover {
+    letter-spacing: 1px;
+}
+
+/* Media */
+
+.media:first-child {
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    transition: 0.5s;
+}
+
+.media img {
+    max-width: 200px;
+}
+
+.media a {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.media:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.media:hover a {
+    opacity: 1;
+}
+
+.btn-default {
+    background: #fff;
+    transition: 0.5s;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 1px #ddd;
+}
+
+.btn-default:hover {
+    background: #fff;
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+.user-panel > div {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.panel-default > .panel-heading {
+    background: #ffb925;
+}
+
+.detail-message button {
+    margin-top: 15px;
+    float: right;
+}
+
+.detail-message textarea {
+    margin-top: 30px;
+}
+
+.messages .list-group-item {
+    display: inline-block;
+}
+
+.messages .list-group-item a {
+    margin-top: 15px;
+}
+
+.single-message {
+    border: 1px solid grey;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.auction-details .write-message {
+    position: absolute;
+    top:15px;
+    right: 15px;
+}
+
+.auction-details h2 {
+    width: 70%;
+}
+
+.add-new-price input {
+    display: inline-block;
+    width: auto;
+}
+
+.add-new-price .form-input {
+    display: inline-block;
+}
